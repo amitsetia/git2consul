@@ -1,0 +1,15 @@
+{
+	"version": "1.0",
+	"repos": [{
+		"name": "sample_configuration",
+		"url": "https://github.com/amitsetia/git2consul.git",
+		"branches": ["dev"],
+		"source_root": "sampledata/",
+		"expand_keys": true,
+		"mountpoint": "platform",
+		"hooks": [{
+			"type": "polling",
+			"interval": "1"
+		}]
+	}]
+}
